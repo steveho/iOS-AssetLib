@@ -22,6 +22,7 @@
 		2727AAD213B3E973005C332D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2727AAD013B3E973005C332D /* InfoPlist.strings */; };
 		2727AAD513B3E973005C332D /* AssetLibTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 2727AAD413B3E973005C332D /* AssetLibTests.h */; };
 		2727AAD713B3E973005C332D /* AssetLibTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2727AAD613B3E973005C332D /* AssetLibTests.m */; };
+		2727AAE113B3E9A1005C332D /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2727AAE013B3E9A1005C332D /* AssetsLibrary.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,22 +40,23 @@
 		2727AAA713B3E972005C332D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		2727AAA913B3E972005C332D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		2727AAAB13B3E972005C332D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		2727AAAF13B3E972005C332D /* AssetLib-Info.plist */ = {isa = PBXFileReference; path = "AssetLib-Info.plist"; sourceTree = "<group>"; };
+		2727AAAF13B3E972005C332D /* AssetLib-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AssetLib-Info.plist"; sourceTree = "<group>"; };
 		2727AAB113B3E972005C332D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		2727AAB313B3E972005C332D /* AssetLib-Prefix.pch */ = {isa = PBXFileReference; path = "AssetLib-Prefix.pch"; sourceTree = "<group>"; };
+		2727AAB313B3E972005C332D /* AssetLib-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AssetLib-Prefix.pch"; sourceTree = "<group>"; };
 		2727AAB413B3E972005C332D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		2727AAB613B3E972005C332D /* AssetLibAppDelegate.h */ = {isa = PBXFileReference; path = AssetLibAppDelegate.h; sourceTree = "<group>"; };
+		2727AAB613B3E972005C332D /* AssetLibAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AssetLibAppDelegate.h; sourceTree = "<group>"; };
 		2727AAB713B3E972005C332D /* AssetLibAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AssetLibAppDelegate.m; sourceTree = "<group>"; };
 		2727AABA13B3E972005C332D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		2727AABC13B3E973005C332D /* AssetLibViewController.h */ = {isa = PBXFileReference; path = AssetLibViewController.h; sourceTree = "<group>"; };
+		2727AABC13B3E973005C332D /* AssetLibViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AssetLibViewController.h; sourceTree = "<group>"; };
 		2727AABD13B3E973005C332D /* AssetLibViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AssetLibViewController.m; sourceTree = "<group>"; };
 		2727AAC013B3E973005C332D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/AssetLibViewController.xib; sourceTree = "<group>"; };
 		2727AAC713B3E973005C332D /* AssetLibTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AssetLibTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2727AACF13B3E973005C332D /* AssetLibTests-Info.plist */ = {isa = PBXFileReference; path = "AssetLibTests-Info.plist"; sourceTree = "<group>"; };
+		2727AACF13B3E973005C332D /* AssetLibTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AssetLibTests-Info.plist"; sourceTree = "<group>"; };
 		2727AAD113B3E973005C332D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		2727AAD313B3E973005C332D /* AssetLibTests-Prefix.pch */ = {isa = PBXFileReference; path = "AssetLibTests-Prefix.pch"; sourceTree = "<group>"; };
+		2727AAD313B3E973005C332D /* AssetLibTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AssetLibTests-Prefix.pch"; sourceTree = "<group>"; };
 		2727AAD413B3E973005C332D /* AssetLibTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AssetLibTests.h; sourceTree = "<group>"; };
 		2727AAD613B3E973005C332D /* AssetLibTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AssetLibTests.m; sourceTree = "<group>"; };
+		2727AAE013B3E9A1005C332D /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				2727AAA813B3E972005C332D /* UIKit.framework in Frameworks */,
 				2727AAAA13B3E972005C332D /* Foundation.framework in Frameworks */,
 				2727AAAC13B3E972005C332D /* CoreGraphics.framework in Frameworks */,
+				2727AAE113B3E9A1005C332D /* AssetsLibrary.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,6 +106,7 @@
 		2727AAA613B3E972005C332D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2727AAE013B3E9A1005C332D /* AssetsLibrary.framework */,
 				2727AAA713B3E972005C332D /* UIKit.framework */,
 				2727AAA913B3E972005C332D /* Foundation.framework */,
 				2727AAAB13B3E972005C332D /* CoreGraphics.framework */,
